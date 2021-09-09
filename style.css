@@ -1,0 +1,42 @@
+body {
+  background: #252b42;
+}
+header {
+  background: url(./images/bg1.png) no-repeat center center;
+  background-size: cover;
+  min-height: 110vh;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 50% 100%, 0 75%);
+}
+header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(180, 182, 181);
+  background: linear-gradient(
+    180deg,
+    rgba(180, 182, 181, 0.1881127450980392) 40%,
+    rgba(18, 104, 170, 1) 100%
+  );
+  z-index: -1;
+}
+.c_btn {
+  background: white;
+  color: #2196f3;
+  font-size: 1.1rem;
+  padding: 0.7rem 2rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.c_btn:hover {
+  background: #2196f3;
+  color: white;
+}
+.icon-img {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 992px) {
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- fontawesome icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <!-- bootstrap stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container d-flex justify-content-between con-nav">
+        <a class="navbar-brand mx-lg-5 navbar_logo" href="#">Navbar</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <div class="ms-lg-5">
+              <a href="#" class="text-white fs-2"><span><i class="fab fa-twitter"></i></span></a>
+              <a href="#" class="text-white fs-2 mx-3"><span><i class="fab fa-facebook-square"></i></span></a>
+              <a href="#" class="text-white fs-2"><span><i class="fab fa-linkedin"></i></span></a>
+            </div>
+        </div>
+
+      </div>
+    </nav>
+    <section class="container mt-5 ">
+      <div class="row ">
+        <div class="col-lg-12 text-white d-flex justify-content-center align-items-center h-100 text-center ">
+          <div class="w-75">
+             <h1 class="display-2 fw-bold mt-5">The best products Starts with Figma</h1>
+            <p class="fs-5 my-4">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <a href="" class="c_btn rounded-pill mt-5">Try for free</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main class="py-5  text-white">
+    <!-- features -->
+    <section class="container py-5 d-flex flex-column justify-content-center align-items-center">
+      <div class="text-center mb-5">
+        <h2 class="mb-3">Features</h2>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+      </div>
+      <div class="row w-75">
+        <div class="col-lg-4">
+          <div class="text-center mb-4">
+            <svg width="46" height="47" viewBox="0 0 46 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.1042 0.625C17.8117 0.625 21.3673 2.0978 23.9889 4.7194C26.6105 7.34101 28.0833 10.8967 28.0833 14.6042C28.0833 17.9846 26.8887 21.0854 24.8808 23.5H45.875V46.375H23V25.3808C20.5854 27.3887 17.4846 28.5833 14.1042 28.5833C10.3967 28.5833 6.84101 27.1105 4.2194 24.4889C1.5978 21.8673 0.125 18.3117 0.125 14.6042C0.125 10.8967 1.5978 7.34101 4.2194 4.7194C6.84101 2.0978 10.3967 0.625 14.1042 0.625Z" fill="#2091F9"/>
+            </svg>
+            
+          </div>
+          <div>
+            <h2>Design with real data</h2>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-center mb-4">
+            <svg width="46" height="47" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.7486 48.65C26.902 47.0167 25.992 42.5134 23.892 39.6667C21.8153 36.75 18.9453 34.7434 16.052 32.8067C13.9876 31.5055 12.1443 29.8829 10.592 28C9.93863 27.23 8.60863 25.8067 9.96197 25.5267C11.3386 25.2467 13.7186 26.6 14.932 27.1134C17.0553 28 19.1553 29.0267 21.1153 30.24L23.472 26.2734C19.832 23.87 15.1653 21.7467 10.8253 21.1167C8.35197 20.7434 5.73863 21.2567 4.89863 23.94C4.15197 26.25 5.34197 28.5834 6.6953 30.4034C9.89197 34.6734 14.862 36.7267 18.572 40.4134C19.3653 41.1834 20.322 42.0934 20.7886 43.1667C21.2786 44.1934 21.162 44.2634 20.0653 44.2634C17.172 44.2634 13.5553 42 11.1986 40.5067L8.84197 44.4734C12.412 46.6667 18.3853 50.0967 22.7486 48.65ZM48.6253 12.25C49.1386 11.7367 49.1386 10.8967 48.6253 10.4067L45.592 7.37337C45.3476 7.13783 45.0214 7.00623 44.682 7.00623C44.3425 7.00623 44.0164 7.13783 43.772 7.37337L41.392 9.75337L46.2453 14.6067L48.6253 12.25ZM25.6653 25.48V30.3334H30.5186L44.8686 15.9834L40.0153 11.13L25.6653 25.48Z" fill="#2091F9"/>
+              </svg>
+              
+                        </div>
+          <div>
+            <h2>Onetype Features variable fonts</h2>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-center mb-4">
+            <svg width="46" height="47" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M53.1366 11.7679L49.7308 8.36209C48.7904 7.37084 47.1383 7.37084 46.147 8.36209L23.3737 31.1354L30.3633 38.125L53.1366 15.3517C54.1279 14.3604 54.1279 12.7083 53.1366 11.7679ZM18.2904 35.5833C16.2681 35.5833 14.3286 36.3867 12.8987 37.8167C11.4687 39.2466 10.6654 41.1861 10.6654 43.2083C10.6654 46.5379 7.71703 48.2917 5.58203 48.2917C7.92036 51.3925 11.9362 53.375 15.7487 53.375C18.4451 53.375 21.031 52.3039 22.9376 50.3973C24.8442 48.4906 25.9154 45.9047 25.9154 43.2083C25.9154 41.1861 25.112 39.2466 23.6821 37.8167C22.2521 36.3867 20.3126 35.5833 18.2904 35.5833Z" fill="#2091F9"/>
+              </svg>
+          </div>
+          <div>
+            <h2>Fastest way to take action</h2>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video section -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-12 ratio ratio-16x9">
+          <iframe class="rounded" src="https://www.youtube.com/embed/hsiGkpt8BV8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- organization -->
+    <section class="container">
+      <div class="row py-5">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="w-75">
+            <h1 class="display-3 mb-3">Fatest way to organize</h1>
+            <p class="fs-5">Moist calenders are designed for teams.
+              Slate is designed fore freelancers
+            </p>
+            <a href="" class="btn btn-primary rounded-pill mt-3 px-5 py-2 fs-5 fw-bold">Try for free</a>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="./images/icons/pc.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- prototype -->
+    <section class="container py-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="./images/icons/prototype.svg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <h5 class="fw- fw-bold">At yout fingertips</h5>
+          <h1 class="display-3 mb-5">Lighting fast prototyping</h1>
+          <h5 class="fw- fw-bold">Subcribe to our Newslater</h5>
+          <p class="fs-5">Available exclusivery on finland</p>
+          <form class="d-flex justify-content-between mt-4">
+            <div class="form-floating me-3 text-dark w-75">
+              <input type="email" class="form-control rounded-pill py-4" id="floatingInput"
+                placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="col-auto w-25">
+              <button type="submit" class="w-100 py-3 btn btn-primary rounded-pill">Confirm</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- parterns -->
+    <section class="container py-5">
+      <div class="text-center">
+        <h1 class="display-3">Parterns</h1>
+        <p class="fs-4">Most calenders are dedsigned for teams</p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-3 col-6">
+          <img class="img-fluid" src="./images/patners/amazon.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-6">
+          <img class="img-fluid" src="./images/patners/dropbox.png" alt="">
+        </div>
+        <div class="col-lg-3 col-6">
+          <img class="img-fluid" src="./images/patners/google.png" alt="">
+        </div>
+        <div class="col-lg-3 col-6">
+          <img class="img-fluid" src="./images/patners/microsoft.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- testomonials -->
+    <section class="container py-5 mt-5 d-flex flex-column justify-content-center align-items-center">
+      <div class="w-50 text-center">
+        <h1 class="display-3">Testomonials</h1>
+        <img class="py-5" src="./images/ibm.png" alt="">
+        <p class="fs-4">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way
+          to plan their schedule.</p>
+      </div>
+
+      <div class="d-flex justify-content-center my-5">
+        <div>
+          <img src="./images/profile.png" width="100" alt="">
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center ms-2">
+          <h2>Organize across</h2>
+          <p>UI designer</p>
+        </div>
+      </div>
+      <a href="" class="btn btn-primary rounded-pill mt-3 px-5 py-3 fs-5 fw-bold">More Testomonials</a>
+    </section>
+    <!-- pricing -->
+    <section class="container py-5 d-flex flex-column j">
+      <div class="w-50 text-center mx-auto">
+        <h1 class="display-3">Pricing</h1>
+        <p class="fs-4">Most calendars are designed for teams. Slate is designed for freelancer.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+          <div class=" text-center bg-white text-dark px-3 py-4 rounded">
+            <h2>Free</h2>
+            <p>Organize across all apps by hand</p>
+            <div class="d-flex justify-content-center align-items-center my-4">
+              <h2 class="display-1 fw-bold">0</h2>
+              <div class="ms-2 ">
+                <h2 class="fw-bold fs-4">$</h2>
+                <p>Per Month</p>
+              </div>
+            </div>
+            <p>Pricing Feature</p>
+            <p class="my-3">Pricing Feature</p>
+            <p>Pricing Feature</p>
+            <p class="my-3">Pricing Feature</p>
+            <p>Pricing Feature</p>
+            <a href="" class="btn btn-primary rounded-pill mt-5 px-4 py-2 fs-5 fw-bold">More Testomonials</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class=" text-center bg-white text-dark px-3 py-4 rounded">
+            <h2>Free</h2>
+            <p>Organize across all apps by hand</p>
+            <div class="d-flex justify-content-center align-items-center my-4">
+              <h2 class="display-1 fw-bold">0</h2>
+              <div class="ms-2">
+                <h2 class="fw-bold fs-4">$</h2>
+                <p>Per Month</p>
+              </div>
+            </div>
+            <p>Pricing Feature</p>
+            <p class="my-3">Pricing Feature</p>
+            <p>Pricing Feature</p>
+            <p class="my-3">Pricing Feature</p>
+            <p>Pricing Feature</p>
+            <a href="" class="btn btn-primary rounded-pill mt-5 px-4 py-2 fs-5 fw-bold">More Testomonials</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class=" text-center bg-white text-dark px-3 py-4 rounded">
+            <h2>Free</h2>
+            <p>Organize across all apps by hand</p>
+            <div class="d-flex justify-content-center align-items-center my-4">
+              <h2 class="display-1 fw-bold">0</h2>
+              <div class="ms-2">
+                <h2 class="fw-bold fs-4">$</h2>
+                <p>Per Month</p>
+              </div>
+            </div>
+            <p>Pricing Feature</p>
+            <p class="my-3">Pricing Feature</p>
+            <p>Pricing Feature</p>
+            <p class="my-3">Pricing Feature</p>
+            <p>Pricing Feature</p>
+            <a href="" class="btn btn-primary rounded-pill mt-5 px-4 py-2 fs-5 fw-bold">More Testomonials</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact us -->
+    <section class="container">
+      <div class="w-50 text-center mx-auto mb-5">
+        <h1 class="display-3">Pricing</h1>
+        <p class="fs-4">Most calendars are designed for teams. Slate is designed for freelancer.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 text-dark">
+          <form action="" class="bg-white px-4 py-5 rounded">
+            <div class="form-floating my-3">
+              <input type="name" class="form-control" id="floatingInput" placeholder="Name">
+              <label for="floatingInput">Your Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingemail" placeholder="Email">
+              <label for="floatingemail">Your Email</label>
+            </div>
+            <div class="form-floating mb-4">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary px-5 py-3 rounded-pill">Submit</button>
+          </form>
+
+        </div>
+        <div class="col-lg-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118103.33518864666!2d91.74982746134032!3d22.326078105327873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8a64095dfd3%3A0x5015cc5bcb6905d9!2sChattogram!5e0!3m2!1sen!2sbd!4v1626991137640!5m2!1sen!2sbd"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <h3 class="mb-4">Pages</h3>
+            <div>
+              <a class="d-block text-white text-decoration-none" href="#">Home</a>
+              <a class="d-block text-white text-decoration-none my-2" href="#">Product</a>
+              <a class="d-block text-white text-decoration-none" href="#">Pricing</a>
+              <a class="d-block text-white text-decoration-none  my-2" href="#">About</a>
+              <a class="d-block text-white text-decoration-none" href="#">contact</a>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <h3 class="mb-4">Tomothy</h3>
+            <div>
+              <a class="d-block text-white text-decoration-none" href="#">Elenor Edwars</a>
+              <a class="d-block text-white text-decoration-none  my-2" href="#">Ted Robertson</a>
+              <a class="d-block text-white text-decoration-none" href="#">Ame Russel</a>
+              <a class="d-block text-white text-decoration-none  my-2" href="#">Jennie Mckinney</a>
+              <a class="d-block text-white text-decoration-none" href="#">Gloria</a>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="mb-4">Jane Black</h3>
+            <div>
+              <a class="d-block text-white text-decoration-none" href="#">Philip jones</a>
+              <a class="d-block text-white text-decoration-none  my-2" href="#">Ted Russel</a>
+              <a class="d-block text-white text-decoration-none" href="#">Collens</a>
+              <a class="d-block text-white text-decoration-none  my-2" href="#">Jhon Cena</a>
+              <a class="d-block text-white text-decoration-none" href="#">Bruce</a>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <h4><span class="me-2"><i class="fas fa-map-marker-alt mb-3"></i></span>7480 Mockingbird Hill undefined </h4>
+            <a href="tel:0213-4202-444" class="text-white text-decoration-none fs-4"><span class="me-2"><i class="fas fa-mobile-alt"></i></span>0213 4202 444 </a>
+            <div class="d-flex justify-content-center mt-3">
+              <a href="#" class="text-decoration-none text-white fs-3"><i class="fab fa-facebook-square"></i></a>
+              <a href="#" class="text-decoration-none text-white fs-3 ms-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-decoration-none text-white fs-3 ms-3 "><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
